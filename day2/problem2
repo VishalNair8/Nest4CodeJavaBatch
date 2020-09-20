@@ -1,0 +1,22 @@
+package problem2;
+
+import java.util.Scanner;
+
+public class Day2problem2HeightAndWeightConverter {
+	public static void main(String[] args) {
+		System.out.println("Enter Height in Feet:");
+		double h=Scanner.next.Double();
+		System.out.println("Enter Weight in Kg:");
+		double w=Scanner.next.Double();
+		double weight=w*2.2;
+		double height=h*12*2.54;
+		System.out.println("Weight in pounds:"+weight);
+		System.out.println("Height in cm:"+height);
+
+				
+
+
+		
+	}
+
+}
