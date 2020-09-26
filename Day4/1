@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+public class Day4Problem1CountOddAndEvenDigits {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		//int no=2467;
+		System.out.println("Enter the number:");
+		int no = scan.nextInt();
+		Math.abs(no);
+		String input=String.valueOf(no);
+		System.out.println(input);
+		int o=0;
+		int e=0;
+		//if (input.charAt(0)==2) {
+		for (int i=0;i<input.length();i++) {
+			if (input.charAt(i)%2==0){
+			e++;
+			}
+			if (input.charAt(i)%2==1){
+				o++;
+				System.out.println(input.charAt(i));
+				System.out.println("Odd digit:"+o);
+				}
+		}
+		System.out.println("Odd digit:"+o);
+		System.out.println("Even digit:"+e);
+		//}	
+		//System.out.println(s.charAt(1));		
+		//String n=(int) no;
+		//int a=n.charAt(0)	;
+		//System.out.println(+a);
+		//System.out.println("Enter the number:");
+		//String input = scan.next();
+		//int o=0;
+		//int e=0;
+		//for(int i=0; i<input.length();i++) {
+			//if (input.charAt(i).equals("0")||input.charAt(i).equals("2")||input.charAt(i).equals("4")||input.charAt(i).equals("6")||input.charAt(i).equals("8")) {
+			//e++;
+			
+			//}
+			//if (input.charAt(i).equals("1")||input.charAt(i).equals("3")||input.charAt(i).equals("5")||input.charAt(i).equals("7")||input.charAt(i).equals("9")) {
+			//o++;	
+			//}
+			//System.out.println("Odd digit:"+o);
+			//System.out.println("Even digit:"+e);
+		
+	}
+
+}
